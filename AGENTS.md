@@ -4,6 +4,10 @@
   repository. After completing and verifying a coherent change, commit the
   relevant source, tests, configuration, and documentation. Use the user's
   configured Git identity; do not invent an author or switch to a bot identity.
+- Use concise commit messages, usually a short one-line subject.
+- Keep README.md concise: project overview, completed work, measured results,
+  and setup/run instructions. Put dated progress logs and detailed experiment
+  history in RESEARCH.md or ignored reports; do not prepend them to README.md.
 - Keep datasets, checkpoints, generated reports, environments, caches, logs,
   and credentials out of Git. Follow `.gitignore` and inspect staged files
   before committing. Never force-add these artifacts or commit credentials.
