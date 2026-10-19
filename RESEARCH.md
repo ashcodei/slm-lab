@@ -1,3 +1,11 @@
+Native coding capacity mechanics completed — 2026-10-19T08:24:18.824915+00:00
+
+The corrected four-replica CPU capacity suite passes all three checks. Both CE/execution profiles complete 32 actual small-model AdamW calls in total, with exact next-action/program-verdict/gradient/Adam/private-RNG recovery, unconditional complete CE fallback, real empty-rank tails and independent complete text/photo/word cold equality. The 267,718-parameter fixture repeats one human program across nine presentations and uses an explicit five-action test horizon; the original native horizon stays 512. The original 16-pixel fixture's 64-pixel word-height failure remains preserved. The corrected fixture uses a 32-pixel base and canonical deterministic positions without reducing the word check.
+
+Three separate fixed-group allocation checks also pass, preserving existing weights, Adam, source cursor and private RNG. Fixed non-EOS actions receive no execution reward or optimizer step. A full native training controller is now implemented with separate sampled-workload and fixed-horizon requirements, fresh capacity-state readback and retained attempt journals. Two source/scope rejection checks pass; the actual complete four-replica training/interruption/recovery integration remains pending in its live queue. Full native-data admission, actual full-size GPU capacity/training/export and all original assessments remain required. DPO observation: 500/5,362; native source qualification: 592/3,721. No new verified accuracy gain is claimed; all ten final requirements remain incomplete. Details: `reports/native-suffix-capacity-and-controller-v2-review/review.json`.
+
+---
+
 Recovered native coding-data admission prepared — 2026-10-19T07:52:53.830260+00:00
 
 Three actual rejection checks pass: missing data, the original failed admission, the recovered legacy controls and the one-program CPU fixture cannot authorize full native-data use. A separate source-only publisher is live behind the complete native qualifier and fresh reader. Its exact-owner integration queue is now live and will run three full checks over all 3,721 programs / 14,884 views, both actual data-loader roles and the selected capacity batches. These positive checks have not run; neither full native-data admission nor GPU capacity is claimed. Original failed outputs remain preserved.
