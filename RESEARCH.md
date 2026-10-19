@@ -1,3 +1,11 @@
+## Serial archival of inactive snapshots — 2026-10-19
+
+The full code-capacity delta attempt reaches its 8GiB payload ceiling before completing the original 11.39GB file. It fails safely: the original and retained anchor are rehashed unchanged, only the newly created unadmitted payload is discarded, and every failure receipt remains. Neither code-capacity attempt reclaims space.
+
+A new serial CPU queue instead covers 13 explicitly inspected, inactive native snapshots from the completed 35,284-update phase. None has an immutable source-path binding, live reader or archive-anchor dependency at inspection. The trained native remains the durable raw anchor. Each snapshot requires its own full physical restore and whole-file hashes before raw retirement, preserving the unchanged 28GiB writer reserve. Three predecessor-admission checks pass: a live exact birth remains waiting, and missing/failed processes require complete physical evidence. The queue has admitted the exact closed failed code-capacity attempt and started the latest snapshot; no saving is claimed before its complete receipt. Byte samples estimate 2.51GiB for the latest and 3.09GiB for the earliest candidate, rather than proving complete archive sizes. Original four-L40 training, all source scopes and final assessments remain unchanged. No new model-quality gain is established.
+
+Evidence: `reports/inactive-phase-snapshot-funding-v1-review/`, `reports/inactive-phase-snapshot-predecessor-v1-tests.log`, `/tmp/slm-inactive-phase-snapshots-exact-raw-XOR-v1/`. Explicit restore commands are recorded separately for every successfully archived snapshot.
+
 ## Full native export, joint factory and storage recovery — 2026-10-19
 
 The completed human-DPO initializer now exports all **984,399,690 native parameters** and independently reloads every value plus actual complete text, 448px photo and whole-word outputs exactly. FP32 adapter-fold differences on the three original probes are at most **1.872e-5**, with no argmax changes. The complete joint CPU factory also finishes: **999,706,442 research parameters / 68,123,713 selected values in 690 leaves**, all 5,362 original source entries and all 47 capacity entries reconcile. CPU RNG and the shared own text reference stay unchanged. These are full-size CPU integrity checks, not GPU capacity or quality results.
