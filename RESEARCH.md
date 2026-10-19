@@ -1,3 +1,19 @@
+Optimized native-code four-replica stage verification — 2026-10-19T07:30:21.665789+00:00
+
+The complete V2 four-replica CPU trial passed in both CE/execution profiles, including 34 actual small-model AdamW calls, independent serial source-mean gradients, exact shared/private-RNG recovery, genuine three-empty-rank tails, complete CE fallback and peer-only faults. All four ranks confirm the optimized stage class/protocol. The 267,334-parameter fixture repeats one human program and uses an explicit five-action test horizon; the original native horizon remains 512. These results establish mechanics, not full-size capacity or model accuracy.
+
+---
+
+Complete independent suffix-reader recovery — 2026-10-19T07:27:13.381480+00:00
+
+Recovered the entire original 3,721-human-program, 14,884-view scope. Independently compared all 3,713 retained reference observations and 14,852 retained view records byte for byte; eight unfinished programs received 40 genuinely new reference/prefix worker runs. All 18,605 independent controls reconcile with no execution-semantic disagreements; 448 trivial prefixes are rejected and 12,955 legacy views remain nontrivial. Every complete CE anchor remains, including failed or unsuitable views. The original disk-failed reader and its failed successors remain unchanged.
+
+Eleven new checks pass for recovery, real worker executions, full recovered catalogue loading and source-only input guards. An inefficient first recovery trial was interrupted with its exact identity and outputs preserved; the completed version checks all input hashes before reading and before publication, and tests reject a source changed without changing its size or timestamp. The earlier nine-test native distributed stage trial also finished: 47 actual small CPU AdamW calls, including four-rank source-mean gradients, recovery, empty ranks and peer-only faults. Its repeated-one-program fixture is not a model-quality result.
+
+Native-profile source qualification and its independent reader now use the separate recovered catalogue. Full native-data admission, GPU capacity, production RL, standalone export and the complete original assessments remain outstanding. No new unassisted accuracy gain or high-end capability is claimed; all ten final requirements remain incomplete.
+
+---
+
 Native-code capacity source selection — 2026-10-19T07:06:24.813626+00:00
 
 Six checks pass across all 3,721 original human programs and 14,884 native suffix views. The source-only selector retains all complete CE anchors and original horizons, selects 42 intact training batches for 132 capacity groups, rotates every selected source across all four physical ranks, and includes all 12 actual one-source/three-empty-rank tails. The full three-epoch schedule remains 11,172 updates, 44,652 source presentations and 7,010,616 response/EOS targets. These are source geometry checks; native execution eligibility and full-size capacity are still unproven. No new model accuracy result is claimed.
