@@ -1,3 +1,11 @@
+## Fund future runs with an exact inactive resume archive — 2026-10-19
+
+A new idle, one-thread CPU archival owner processes only the **11,807,057,403-byte** final resume snapshot from the completed original 7,558-update code run. Fresh inspection confirms its exact original owner is terminal, no live reader or immutable source binding uses it, and its own trained raw native remains a retained durable anchor. The existing independently physically tested V4 opaque XOR codec preserves every original tensor, Adam, RNG and metadata byte.
+
+Both the new **8 GiB maximum payload** and the older serial queue's **3.25 GiB maximum** are funded above the original 28 GiB writer reserve; this owner's stricter floor is 31.25 GiB. It must physically restore and independently hash the complete file on separate scratch before retiring the raw duplicate. Failure preserves original evidence and permits discarding only this new unadmitted payload after rehashing the intact original and anchor. No shared cache, active input or neural worker changes. The owner is live; no saving from this attempt or future experiment funding is claimed before actual completion and a fresh physical free-space check.
+
+Evidence: `reports/inactive-code-final-resume-exact-raw-XOR-v1/`; source: `scripts/archive_inactive_code_resume_CPU_v1.py`.
+
 ## Shared-native PPO and complete original prompt recipe — 2026-10-19
 
 Added a PPO kernel that shares the exact native backbone and completed human-ranking head with the policy. Only policy adapters/norms and the separate critic learn; the native KL reference, reward, vision and other heads stay fixed. FP32 cached sampling retains its actual behavior probabilities, full original prompts, real EOS actions, distinct scoring-only EOS, token KL rewards and finite-horizon GAE. The full recipe retains **85,786 prompts, 42,893 two-prompt updates and a 512-action horizon**. No additional reward encoder is counted. This is a single-device kernel; a production owned GPU controller and full-size capacity/recovery remain required.
