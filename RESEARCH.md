@@ -1,3 +1,11 @@
+Complete native-source recovery pipeline — 2026-10-19T09:34:48.222033+00:00
+
+The previous native producer reached its bounded disk-reserve timeout; its reader, data publisher and integration queue also stopped, and their failures remain preserved. All 2,371 closed view records survive, including 592 complete sources and three views of the next source. Three actual checks independently rebuild every retained source/mask/horizon/program/result and both legacy controls, reject changed targets, programs, provenance and false eligibility, and preserve every raw byte-LF record. The 4,134 retained gold and 4,134 retained prefix control invocations are not labelled new executions.
+
+The new producer copies that exact validated prefix and runs new controls only for unfinished views, retaining all 3,721 sources / 14,884 views and every failed CE anchor. Its separate reader compares the retained prefix byte for byte, independently rebuilds every native source and freshly executes all attempted native gold/prefix controls. A new data-only publisher and full actual-data integration queue are live. Three rejection checks pass; the three positive whole-source loader/capacity-selection checks remain queued, including explicit optimization-versus-capacity source identity reconstruction. A queue-launch import-name error is preserved; its corrected version uses the unchanged version2 closure helper. Full native-data admission and full-size GPU capacity/training are still unproved. DPO observation at review: 1350/5,362. No new verified model accuracy gain is claimed; all ten final requirements remain incomplete.
+
+---
+
 Lossless inactive capacity storage recovery — 2026-10-19T08:57:10.741808+00:00
 
 Archived the inactive, unbound 11,388,024,827-byte raw-step capacity snapshot from the completed 35,284-update phase into 9,123,952,351 compressed bytes. The complete original was physically restored on the separate scratch filesystem and independently rehashed before retiring its redundant original copy. Every tensor, optimizer, RNG and metadata byte remains recoverable; the current archive payload was independently rehashed again. Actual allocated storage reclaimed: 2,264,076,288 bytes (2.11 GiB). Current training inputs and all original workers remain unchanged; shared caches outside this project are untouched.
