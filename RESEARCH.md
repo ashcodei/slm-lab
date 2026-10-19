@@ -1,3 +1,13 @@
+Native coding GPU path and bounded prompt prefill — 2026-10-19
+
+Three actual CPU checks pass for causal text prefill in bounded query chunks, preserving every prefix token and all eight histories. The 297,094-parameter fixture retains 35 decoder layers and the full 32K vocabulary; maximum full-vocabulary log-probability difference is 9.54e-7. A separate two-layer/64-vocabulary fixture reaches all 4,096 context positions with eight histories and bounded rectangular attention masks. Native sampling still independently rescores every action. Original image prefill, full training forwards, weights and RNG remain intact. This is conventional chunked prefill; full-size GPU memory, speed and quality gains have not been measured.
+
+Ten connected driver checks pass, including six actual small-model AdamW calls across matched CE/execution profiles and exact next-action/program-verdict/actor/Adam/private-RNG recovery. That fixture repeats one human program with an explicit five-action mechanics limit; its original native horizon stays 512. The new owned GPU driver is implemented but unlaunched. It retains all 3,721 sources / 14,884 views, three epochs / 11,172 updates / 44,652 presentations / 7,010,616 original CE/EOS targets, eight complete-horizon attempts, separate sampled-workload and fixed-horizon capacity, fresh readback, native export/cold and all earlier full assessments. The initializer is the predeclared completed own reasoning RL endpoint, with earlier canonical/visual/mixed/reasoning stages preserved. Full native-data admission, actual capacity selection, complete runtime preparation, sufficient storage and actual four-L40 capacity/training remain required.
+
+A source-only capacity preparer is live behind the exact complete data-integration owner. Review snapshot: DPO 1,625/5,362; native qualification 1,232/3,721. No new verified accuracy gain is claimed; all ten final requirements remain incomplete. Details: `reports/native-prefill-and-owned-driver-v1-review/review.json`.
+
+---
+
 Complete native-source recovery pipeline — 2026-10-19T09:34:48.222033+00:00
 
 The previous native producer reached its bounded disk-reserve timeout; its reader, data publisher and integration queue also stopped, and their failures remain preserved. All 2,371 closed view records survive, including 592 complete sources and three views of the next source. Three actual checks independently rebuild every retained source/mask/horizon/program/result and both legacy controls, reject changed targets, programs, provenance and false eligibility, and preserve every raw byte-LF record. The 4,134 retained gold and 4,134 retained prefix control invocations are not labelled new executions.
