@@ -1,8 +1,6 @@
 # SLM Lab
 
-A from-scratch, sub-billion-parameter multimodal language model project focused on coding, general text, and image understanding.
-
-## What has been built
+A sub-billion parameter multimodal language model built from scratch focusing on coding, general text, and image understanding.
 
 - An own text decoder and vision encoder, with a **984M-parameter standalone model** and a shared 32K-token vocabulary.
 - Public text, code, image, and OCR data pipelines with source tracking and validation. A completed training stage covered **1.106B response/EOS targets across 17 source families**.
@@ -10,7 +8,7 @@ A from-scratch, sub-billion-parameter multimodal language model project focused 
 - Distributed training on **four NVIDIA L40 GPUs**, resumable optimizer/RNG checkpoints, and standalone text/image inference.
 - Evaluation for code syntax, functional correctness and runtime efficiency, alongside knowledge, math, OCR, and visual question answering.
 
-Built with **Python, PyTorch, CUDA, torch.distributed (NCCL/Gloo), Hugging Face Datasets/Tokenizers, Pillow, and pytest**. The backbone is trained from scratch; released synthetic coding data is tracked separately from human-written code and human feedback.
+Built with **Python, PyTorch, CUDA, torch.distributed (NCCL/Gloo), Hugging Face Datasets/Tokenizers, Pillow, and pytest**. The backbone is trained from scratch released synthetic coding data is tracked separately from human-written code and human feedback.
 
 ## Results so far
 
