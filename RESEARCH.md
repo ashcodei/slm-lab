@@ -1,3 +1,11 @@
+Complete native experiment source preparation — 2026-10-19
+
+Nine source-assembly checks pass using full-count metadata fixtures, without constructing a neural model. They retain the fixed own reasoning RL initializer and its complete baseline, all 16,961 QA questions, 3,088 diagrams with three image conditions, 600 MBPP tasks, 4,642 human pairs, 3,429 words with three conditions, both 24-case code frames and all 289 reserved reasoning cases. Changed sources, a different initializer, missing conditions, partial populations and a mismatched baseline worker are rejected. These fixtures do not establish actual completed full-stage results or model quality.
+
+The complete source-only preparer is live behind the exact existing native capacity-source and reasoning-recipe owners. It must additionally observe successful full visual, mixed-code and reasoning experiments and every original canonical scope before publishing its recipe. Its initializer and cached baseline are the predeclared reasoning `anchor_RL` native, rather than the older canonical initializer. It never imports the neural runtime, acquires a GPU lease or launches workers. Its conservative storage reservation remains separate from actual storage funding and full-size GPU capacity. Production native training, export and useful all-round/coding capability remain unproved.
+
+---
+
 Native coding GPU path and bounded prompt prefill — 2026-10-19
 
 Three actual CPU checks pass for causal text prefill in bounded query chunks, preserving every prefix token and all eight histories. The 297,094-parameter fixture retains 35 decoder layers and the full 32K vocabulary; maximum full-vocabulary log-probability difference is 9.54e-7. A separate two-layer/64-vocabulary fixture reaches all 4,096 context positions with eight histories and bounded rectangular attention masks. Native sampling still independently rescores every action. Original image prefill, full training forwards, weights and RNG remain intact. This is conventional chunked prefill; full-size GPU memory, speed and quality gains have not been measured.
