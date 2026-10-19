@@ -8,7 +8,7 @@ A sub-billion parameter multimodal language model built from scratch focusing on
 - Distributed training on **four NVIDIA L40 GPUs**, resumable optimizer/RNG checkpoints, and standalone text/image inference.
 - Evaluation for code syntax, functional correctness and runtime efficiency, alongside knowledge, math, OCR, and visual question answering.
 
-Built with **Python, PyTorch, CUDA, torch.distributed (NCCL/Gloo), Hugging Face Datasets/Tokenizers, Pillow, and pytest**. The backbone is trained from scratch released synthetic coding data is tracked separately from human-written code and human feedback.
+Built with **Python, PyTorch, CUDA, torch.distributed (NCCL/Gloo), Hugging Face Datasets/Tokenizers, Pillow, and pytest**. The backbone originated from random initialization; released synthetic coding data is tracked separately from human-written code and human feedback.
 
 ## Results so far
 
@@ -20,6 +20,8 @@ A completed public-data stage reduced reserved-code token loss from **0.8193 to 
 | Functionally correct programs | 1/48 | 1/48 |
 | Programs passing efficiency checks | 0/48 | 1/48 |
 | Python functional correctness | 0/24 | 1/24 |
+
+On **4,642 held human-ranked pairs**, DPO reached **54.85% reference-relative preference accuracy**, versus **50.78%** for chosen-response SFT. Baseline and DPO coding correctness both remained **1/48**.
 
 Correctness and broad multimodal performance remain limited. These are small local development suites, not leaderboard results; training and evaluation are ongoing.
 
