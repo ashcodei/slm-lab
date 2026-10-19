@@ -1,0 +1,45 @@
+{
+  "reviewed_at": "2026-10-13T18:25:32.889329+00:00",
+  "sources": {
+    "protocolbuffers/protobuf": {
+      "expected_family": "BSD-3-Clause",
+      "license_sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+      "publisher_path": "LICENSE",
+      "publisher_url": "https://github.com/protocolbuffers/protobuf/blob/main/LICENSE",
+      "github_detection_at_review": "NOASSERTION",
+      "review": "Exact publisher license bytes; BSD three-clause terms or canonical Apache/Boost text. Publisher notices retained."
+    },
+    "CLIUtils/CLI11": {
+      "expected_family": "BSD-3-Clause",
+      "license_sha256": "cfc76368aef8f51868fa1cda6bcfa26e583406a4cf8e48e725e7624df24d8855",
+      "publisher_path": "LICENSE",
+      "publisher_url": "https://github.com/CLIUtils/CLI11/blob/main/LICENSE",
+      "github_detection_at_review": "NOASSERTION",
+      "review": "Exact publisher license bytes; BSD three-clause terms or canonical Apache/Boost text. Publisher notices retained."
+    },
+    "pybind/pybind11": {
+      "expected_family": "BSD-3-Clause",
+      "license_sha256": "83965b843b98f670d3a85bd041ed4b372c8ec50d7b4a5995a83ac697ba675dcb",
+      "publisher_path": "LICENSE",
+      "publisher_url": "https://github.com/pybind/pybind11/blob/master/LICENSE",
+      "github_detection_at_review": "NOASSERTION",
+      "review": "Exact publisher license bytes; BSD three-clause terms or canonical Apache/Boost text. Publisher notices retained."
+    },
+    "simdjson/simdjson": {
+      "expected_family": "Apache-2.0",
+      "license_sha256": "5fa8894e890bd77958f93b165433e0fb0dffa5bc982bfb147e4748e95bad24e5",
+      "publisher_path": "LICENSE",
+      "publisher_url": "https://github.com/simdjson/simdjson/blob/master/LICENSE",
+      "github_detection_at_review": "Apache-2.0",
+      "review": "Exact publisher license bytes; BSD three-clause terms or canonical Apache/Boost text. Publisher notices retained."
+    },
+    "taocpp/PEGTL": {
+      "expected_family": "BSL-1.0",
+      "license_sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "publisher_path": "LICENSE_1_0.txt",
+      "publisher_url": "https://github.com/taocpp/PEGTL/blob/main/LICENSE_1_0.txt",
+      "github_detection_at_review": "BSL-1.0",
+      "review": "Exact publisher license bytes; BSD three-clause terms or canonical Apache/Boost text. Publisher notices retained."
+    }
+  }
+}

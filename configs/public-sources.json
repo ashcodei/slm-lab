@@ -1,0 +1,330 @@
+{
+  "domains": {
+    "medical": [
+      "Medicine",
+      "Anatomy",
+      "Physiology",
+      "Pathology",
+      "Pharmacology",
+      "Epidemiology",
+      "Public health",
+      "Immunology",
+      "Cardiology",
+      "Neurology",
+      "Infectious disease",
+      "Clinical trial"
+    ],
+    "law": [
+      "Law",
+      "Constitutional law",
+      "Contract",
+      "Tort",
+      "Criminal law",
+      "Civil procedure",
+      "International law",
+      "Intellectual property",
+      "Property law",
+      "Administrative law",
+      "Legal history"
+    ],
+    "software_engineering": [
+      "Software engineering",
+      "Software testing",
+      "Software design",
+      "Design Patterns",
+      "Compiler",
+      "Database",
+      "Distributed computing",
+      "Version control",
+      "Formal verification",
+      "Algorithm",
+      "Data structure"
+    ],
+    "computers": [
+      "Computer science",
+      "Computer architecture",
+      "Operating system",
+      "Computer hardware",
+      "Information theory",
+      "Artificial intelligence",
+      "Machine learning",
+      "Computer security",
+      "Human\u2013computer interaction"
+    ],
+    "networking": [
+      "Computer network",
+      "Internet protocol suite",
+      "Transmission Control Protocol",
+      "Internet Protocol",
+      "Domain Name System",
+      "Routing",
+      "Network security",
+      "Wireless network",
+      "Ethernet",
+      "Border Gateway Protocol"
+    ],
+    "psychology": [
+      "Psychology",
+      "Cognitive psychology",
+      "Developmental psychology",
+      "Social psychology",
+      "Neuroscience",
+      "Memory",
+      "Emotion",
+      "Learning",
+      "Personality psychology",
+      "Psychotherapy"
+    ],
+    "astrology": [
+      "Astrology",
+      "History of astrology",
+      "Western astrology",
+      "Chinese astrology",
+      "Indian astrology",
+      "Zodiac",
+      "Horoscope",
+      "Astrology and science"
+    ],
+    "astronomy": [
+      "Astronomy",
+      "Astrophysics",
+      "Cosmology",
+      "Solar System",
+      "Star",
+      "Galaxy",
+      "Planet",
+      "Exoplanet",
+      "Black hole",
+      "Space exploration"
+    ],
+    "physics": [
+      "Physics",
+      "Classical mechanics",
+      "Quantum mechanics",
+      "Electromagnetism",
+      "Thermodynamics",
+      "Statistical mechanics",
+      "General relativity",
+      "Particle physics",
+      "Optics",
+      "Condensed matter physics"
+    ],
+    "mathematics": [
+      "Mathematics",
+      "Algebra",
+      "Linear algebra",
+      "Calculus",
+      "Geometry",
+      "Topology",
+      "Number theory",
+      "Probability theory",
+      "Statistics",
+      "Discrete mathematics",
+      "Mathematical logic",
+      "Numerical analysis"
+    ],
+    "chemistry": [
+      "Chemistry",
+      "Organic chemistry",
+      "Inorganic chemistry",
+      "Physical chemistry",
+      "Analytical chemistry",
+      "Chemical reaction",
+      "Periodic table",
+      "Chemical bond",
+      "Electrochemistry",
+      "Biochemistry"
+    ],
+    "biology": [
+      "Biology",
+      "Cell biology",
+      "Molecular biology",
+      "Genetics",
+      "Evolution",
+      "Ecology",
+      "Microbiology",
+      "Botany",
+      "Zoology",
+      "Bioinformatics",
+      "Conservation biology"
+    ],
+    "engineering": [
+      "Engineering",
+      "Electrical engineering",
+      "Mechanical engineering",
+      "Civil engineering",
+      "Control theory",
+      "Signal processing",
+      "Robotics",
+      "Materials science",
+      "Energy"
+    ],
+    "economics": [
+      "Economics",
+      "Microeconomics",
+      "Macroeconomics",
+      "Finance",
+      "Game theory",
+      "Econometrics",
+      "Economic history",
+      "International trade"
+    ],
+    "humanities": [
+      "History",
+      "Philosophy",
+      "Linguistics",
+      "Literature",
+      "Sociology",
+      "Anthropology",
+      "Geography",
+      "Art",
+      "Music",
+      "Education"
+    ]
+  },
+  "wikipedia_articles_per_domain": 100,
+  "repositories": [
+    {
+      "repo": "TheAlgorithms/Python",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/Java",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/C-Plus-Plus",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/Go",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/JavaScript",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/Rust",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "pallets/flask",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "psf/requests",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "django/django",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "numpy/numpy",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "scipy/scipy",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "pandas-dev/pandas",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "scikit-learn/scikit-learn",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "golang/go",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "rust-lang/book",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "libuv/libuv",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "nlohmann/json",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "jqlang/jq",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "dotnet/runtime",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "swiftlang/swift",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "laravel/framework",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "rails/rails",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "JetBrains/kotlin",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "scala/scala",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "duckdb/duckdb",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "microsoft/TypeScript",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    }
+  ],
+  "blogs": [
+    {
+      "url": "https://distill.pub/2017/feature-visualization/",
+      "domain": "computers",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "url": "https://distill.pub/2019/computing-receptive-fields/",
+      "domain": "computers",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

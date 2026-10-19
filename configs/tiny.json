@@ -1,0 +1,18 @@
+{
+  "vocab_size": 256,
+  "hidden_size": 64,
+  "intermediate_size": 128,
+  "num_layers": 2,
+  "num_heads": 4,
+  "num_kv_heads": 2,
+  "max_text_length": 128,
+  "vision_hidden_size": 32,
+  "vision_intermediate_size": 64,
+  "vision_layers": 2,
+  "vision_heads": 4,
+  "image_size": 32,
+  "patch_size": 8,
+  "pool_size": 2,
+  "rope_theta": 10000.0,
+  "norm_eps": 0.000001
+}

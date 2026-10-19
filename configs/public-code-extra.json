@@ -1,0 +1,22 @@
+{
+  "domains": {},
+  "wikipedia_articles_per_domain": 100,
+  "repositories": [
+    {
+      "repo": "dotnet/runtime",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "microsoft/TypeScript",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "JetBrains/kotlin",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    }
+  ],
+  "blogs": []
+}

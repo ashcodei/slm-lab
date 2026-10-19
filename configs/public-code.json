@@ -1,0 +1,143 @@
+{
+  "domains": {},
+  "wikipedia_articles_per_domain": 100,
+  "repositories": [
+    {
+      "repo": "TheAlgorithms/Python",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/Java",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/C-Plus-Plus",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/Go",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/JavaScript",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "TheAlgorithms/Rust",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "pallets/flask",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "psf/requests",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "django/django",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "numpy/numpy",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "scipy/scipy",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "pandas-dev/pandas",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "scikit-learn/scikit-learn",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "golang/go",
+      "expected_license": "BSD-3-Clause",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "rust-lang/book",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "libuv/libuv",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "nlohmann/json",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "jqlang/jq",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "dotnet/runtime",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "swiftlang/swift",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "laravel/framework",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "rails/rails",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "JetBrains/kotlin",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "scala/scala",
+      "expected_license": "Apache-2.0",
+      "domain": "software_engineering"
+    },
+    {
+      "repo": "duckdb/duckdb",
+      "expected_license": "MIT",
+      "domain": "software_engineering"
+    }
+  ],
+  "blogs": [
+    {
+      "url": "https://distill.pub/2017/feature-visualization/",
+      "domain": "computers",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "url": "https://distill.pub/2019/computing-receptive-fields/",
+      "domain": "computers",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "domains": {},
+  "wikipedia_articles_per_domain": 0,
+  "repositories": [
+    {"repo": "abseil/abseil-cpp", "expected_license": "Apache-2.0", "domain": "software_engineering"},
+    {"repo": "fmtlib/fmt", "expected_license": "MIT", "domain": "software_engineering"},
+    {"repo": "google/googletest", "expected_license": "BSD-3-Clause", "domain": "software_engineering"},
+    {"repo": "protocolbuffers/protobuf", "expected_license": "BSD-3-Clause", "domain": "software_engineering"},
+    {"repo": "CLIUtils/CLI11", "expected_license": "BSD-3-Clause", "domain": "software_engineering"},
+    {"repo": "boostorg/asio", "expected_license": "BSL-1.0", "domain": "networking"},
+    {"repo": "boostorg/beast", "expected_license": "BSL-1.0", "domain": "networking"},
+    {"repo": "gabime/spdlog", "expected_license": "MIT", "domain": "software_engineering"},
+    {"repo": "taocpp/PEGTL", "expected_license": "MIT", "domain": "software_engineering"},
+    {"repo": "simdjson/simdjson", "expected_license": "Apache-2.0", "domain": "software_engineering"},
+    {"repo": "tokio-rs/tokio", "expected_license": "MIT", "domain": "networking"},
+    {"repo": "pybind/pybind11", "expected_license": "BSD-3-Clause", "domain": "software_engineering"}
+  ],
+  "blogs": []
+}

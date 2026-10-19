@@ -1,0 +1,25 @@
+{
+  "per_repository_source_bytes": 16000000,
+  "maximum_files_per_repository": 4000,
+  "maximum_file_bytes": 200000,
+  "maximum_archive_bytes": 400000000,
+  "maximum_total_archive_bytes": 1600000000,
+  "repositories": [
+    {"repo": "torvalds/linux", "domain": "operating_systems", "license": "GPL-2.0", "license_paths": ["LICENSES/preferred/GPL-2.0"]},
+    {"repo": "FreeRTOS/FreeRTOS-Kernel", "domain": "operating_systems", "license": "MIT", "license_paths": ["LICENSE.md", "LICENSE"]},
+    {"repo": "zephyrproject-rtos/zephyr", "domain": "operating_systems", "license": "Apache-2.0", "license_paths": ["LICENSE"]},
+    {"repo": "littlefs-project/littlefs", "domain": "low_level_programming", "license": "BSD-3-Clause", "license_paths": ["LICENSE.md", "LICENSE"]},
+    {"repo": "lwip-tcpip/lwip", "domain": "networking", "license": "BSD-3-Clause", "license_paths": ["COPYING", "LICENSE"]},
+    {"repo": "the-tcpdump-group/libpcap", "domain": "networking", "license": "BSD-3-Clause", "license_paths": ["LICENSE"]},
+    {"repo": "the-tcpdump-group/tcpdump", "domain": "networking", "license": "BSD-3-Clause", "license_paths": ["LICENSE"]},
+    {"repo": "zeek/zeek", "domain": "security_engineering", "license": "BSD-3-Clause", "license_paths": ["COPYING", "LICENSE"]},
+    {"repo": "OISF/suricata", "domain": "security_engineering", "license": "GPL-2.0", "license_paths": ["COPYING", "LICENSE"]},
+    {"repo": "openssl/openssl", "domain": "cryptography", "license": "Apache-2.0", "license_paths": ["LICENSE.txt", "LICENSE"]},
+    {"repo": "libssh2/libssh2", "domain": "security_engineering", "license": "BSD-3-Clause", "license_paths": ["COPYING", "LICENSE"]},
+    {"repo": "jedisct1/libsodium", "domain": "cryptography", "license": "ISC", "license_paths": ["LICENSE"]},
+    {"repo": "osquery/osquery", "domain": "security_engineering", "license": "Apache-2.0", "license_paths": ["LICENSE-Apache-2.0"]},
+    {"repo": "seccomp/libseccomp", "domain": "low_level_programming", "license": "LGPL-2.1", "license_paths": ["LICENSE", "COPYING"]},
+    {"repo": "virustotal/yara", "domain": "security_engineering", "license": "BSD-3-Clause", "license_paths": ["COPYING", "LICENSE"]},
+    {"repo": "AFLplusplus/AFLplusplus", "domain": "security_engineering", "license": "AGPL-3.0", "license_paths": ["LICENSE"]}
+  ]
+}
