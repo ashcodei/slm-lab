@@ -1,3 +1,11 @@
+Recovered native coding-data admission prepared — 2026-10-19T07:52:53.830260+00:00
+
+Three actual rejection checks pass: missing data, the original failed admission, the recovered legacy controls and the one-program CPU fixture cannot authorize full native-data use. A separate source-only publisher is live behind the complete native qualifier and fresh reader. Its exact-owner integration queue is now live and will run three full checks over all 3,721 programs / 14,884 views, both actual data-loader roles and the selected capacity batches. These positive checks have not run; neither full native-data admission nor GPU capacity is claimed. Original failed outputs remain preserved.
+
+Chosen-response training completed all 5,362 updates / 85,786 public human-ranked pairs. The matched DPO arm is running from the same foundation; it is not sequential SFT then DPO. Current DPO observation: 175/5,362. The native qualifier has checked 384/3,721 sources. No new held-out accuracy result is established. All ten final capability requirements remain incomplete. Details: `reports/recovered-native-data-admission-v2-readiness-review/review.json`.
+
+---
+
 Optimized native-code four-replica stage verification — 2026-10-19T07:30:21.665789+00:00
 
 The complete V2 four-replica CPU trial passed in both CE/execution profiles, including 34 actual small-model AdamW calls, independent serial source-mean gradients, exact shared/private-RNG recovery, genuine three-empty-rank tails, complete CE fallback and peer-only faults. All four ranks confirm the optimized stage class/protocol. The 267,334-parameter fixture repeats one human program and uses an explicit five-action test horizon; the original native horizon remains 512. These results establish mechanics, not full-size capacity or model accuracy.
