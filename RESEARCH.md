@@ -1,3 +1,18 @@
+## Complete the full-size future-order mechanism comparison — 2026-10-19
+
+The **999,806,282-value study completes all four actual CPUAdam updates**, two per arm, retaining both whole original sources (1,307contexts/274response-EOS targets). Independent selected-state readers reconstruct identical initial actor/head values and validate all561control /564auxiliary Adam states, clocks, nonzero first moments and CPU RNG. Every99,840auxiliary value learns in the auxiliary arm and remains exact in the control. Final producer checks confirm all984Mnative/vision/word values and the unused critic stay exact; the independent reader does not replay the neural forward/backward or reload the whole frozen native.
+
+| Two-source training diagnostic | Initial train CE | Final train CE |
+|---|---:|---:|
+| CE-only | 0.510933 | 0.499193 |
+| CE + .1future-order | 0.510933 | 0.499266 |
+
+The auxiliary result is **0.00007311higher** on this train-only next-token metric. This tiny mechanism study does not establish a benefit, statistical generalization, generated-code correctness or broad capability; auxiliary compute is also additional. The implementation is mechanically valid, with efficacy still unproved and no candidate promotion. A full-source controlled study, actual owned GPUcapacity and every original code/efficiency/broad/multimodal assessment remain necessary before adoption. The original96program interim-checkpoint evaluation and four-L40training continue unchanged.
+
+The inactive fast-capacity archive also completes a full **11,804,390,267-byte physical restore and independent whole-file SHA**. Its8,499,768,669-byte durable payload then replaces the unbound raw duplicate, reclaiming **3,303,968,768allocated bytes (3.08GiB)**. Both original and restored hashes are `6b388cf4930a69147b214a8951beceebee08d645526fbc24af4b041f2d386fcf`. The old failed experiment stays failed, all metadata remain, and the required protected initial stays raw. No source/cache/worker or model-quality change is inferred from storage recovery.
+
+Evidence: `reports/compact-future-order-full-comparison-v1/complete.json`, both independent readbacks under `reports/compact-future-order-selected-readback-v1/`, `/tmp/slm-compact-future-order-full-CPU-v1/complete.json`, and `reports/inactive-fast-capacity-step1-exact-raw-XOR-v1/complete.json`.
+
 ## First full-size future-order update and saved control readback — 2026-10-19
 
 An independent CPU reader reconstructs every initial selected actor value from the exact captured own human-DPO checkpoint and all99,840initial auxiliary values from the predeclared seed. The CE-only two-update checkpoint validates **all561Adam states/clocks**, all561nonzero first moments and its complete private CPU RNG. **15,305,204of15,305,216actor values change**, maximum absolute change2.0504e-5; every unused auxiliary value stays exact. No original checkpoint/state or caller CPU RNG changes. This selected-state reader does not reload the984Mnative/unused critic or replay neural gradients; the full producer's final frozen-value checks remain required.
