@@ -1,3 +1,11 @@
+## First inactive native archive independently restored — 2026-10-19
+
+The first selected native snapshot (`step-34816`) is now fully archived: **3,937,741,157 original bytes → 2,701,992,482 payload bytes**, reclaiming **1,235,570,688 allocated bytes (1.15GiB)** after complete physical verification. A separate process then runs the documented restore CLI against only the durable archive and retained trained anchor. Its new 3.94GB physical output independently hashes to the exact original SHA256 `b681298ea0fc85088ae5bc587f7c9c25ff0127edcbc5b528f8de5499660cfe1b`; only that verified scratch readback duplicate is removed afterward. The serial queue continues with the remaining snapshots. This is storage recovery, not a neural-quality result.
+
+A separate two-MiB disposable-file probe tests [Linux block deduplication](https://man7.org/linux/man-pages/man2/ioctl_fideduperange.2.html) on the actual XFS volume. The kernel returns `-95` (unsupported), with both contents, inodes, timestamps and physical extents unchanged. No existing checkpoint is touched by that probe. The only whole-file duplicate pair found in recorded checkpoint hashes already shares one inode, so it offers no additional recovery. Further inactive raw checkpoints are being sampled read-only; those estimates do not count as recovered space or authorize retiring an active input. All original GPU training and full future funding/assessment requirements remain unchanged.
+
+Evidence: `reports/inactive-phase-step-34816-exact-raw-XOR-v1/complete.json`, `reports/inactive-phase-first-native-independent-restore-v1/`, `reports/checkpoint-extent-sharing-v1-review/actual-disposable-fixture-probe.json`, `reports/first-native-archive-and-independent-restore-v1-review/`.
+
 ## Serial archival of inactive snapshots — 2026-10-19
 
 The full code-capacity delta attempt reaches its 8GiB payload ceiling before completing the original 11.39GB file. It fails safely: the original and retained anchor are rehashed unchanged, only the newly created unadmitted payload is discarded, and every failure receipt remains. Neither code-capacity attempt reclaims space.
