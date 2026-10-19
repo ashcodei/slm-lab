@@ -1,3 +1,11 @@
+Native coding training/recovery and standalone export — 2026-10-19T09:34:48.222033+00:00
+
+The actual four-replica CPU controller integration passes all three checks. Both CE/execution profiles read the completed capacity state into fresh replicas, run fixed full-group allocation without optimizer calls, train the complete declared fixture schedule and recover an interrupted update while retaining both attempt journals. Across both profiles and all ranks, the new training/recovery test performs 56 actual disposable AdamW calls. Next actions, actual program verdicts, gradients, actor/Adam values and private RNG recover exactly; raw execution timings remain in their original journals.
+
+Three standalone-export checks pass on the actual trained actors. Each 267,718-value research fixture folds to a self-contained 267,430-value native, preserving every image/word/auxiliary value and the original dense critic. Fresh text/image/whole-word outputs and every native parameter match bit exactly; hot-to-folded logit differences are measured separately. Nine presentations repeat one human program under a five-action mechanics horizon, preserving all 612 original CE targets. These results do not establish full-size GPU capacity or unassisted coding quality. Full 3,721-source/14,884-view admission, the actual 11,172-update production scope and every original final assessment remain required. All ten final requirements remain incomplete. See `reports/native-controller-export-and-source-recovery-v3-review/review.json`.
+
+---
+
 Native coding capacity mechanics completed — 2026-10-19T08:24:18.824915+00:00
 
 The corrected four-replica CPU capacity suite passes all three checks. Both CE/execution profiles complete 32 actual small-model AdamW calls in total, with exact next-action/program-verdict/gradient/Adam/private-RNG recovery, unconditional complete CE fallback, real empty-rank tails and independent complete text/photo/word cold equality. The 267,718-parameter fixture repeats one human program across nine presentations and uses an explicit five-action test horizon; the original native horizon stays 512. The original 16-pixel fixture's 64-pixel word-height failure remains preserved. The corrected fixture uses a 32-pixel base and canonical deterministic positions without reducing the word check.
