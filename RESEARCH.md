@@ -18,6 +18,8 @@ All complete original next-token response/EOS targets retain supervision. The ad
 
 The original512prefix reader also completes on the **actual999,706,442-value model**: all four policy/Adam/metrics agree, all512source records and **590,772actions / 60,889reference targets** reconstruct, four opaque CUDA generators remain distinct and policy parts differ from the exact starting actor. No optimizer or training RNG is resumed. The full96program CPUcoding assessment remains live; changed weights alone do not prove useful learning.
 
+The actual full-size CPU auxiliary graph now constructs successfully with **999,806,282 registered unique values**, including99,840auxiliary values and **15,405,056selected actor/head values**. Both fixed original train sources remain whole:553/754context positions and120/154response-EOS targets, totaling1,307contexts/274targets. Initial train-source forwards are live before the two matched updates per arm. Successful full-size construction establishes the inventory, not completed updates, GPU capacity, held correctness or useful multimodal improvement.
+
 Evidence: `/tmp/slm-compact-future-order-v1-tests.log`, `/tmp/slm-broad-code-step512-code-evaluation-CPU-v1/interim-source-state-readback.json`, `src/slm_lab/compact_future_order_v1.py`, and `scripts/probe_compact_future_order_full_CPU_v1.py`.
 
 ## Matched coding assessment of a live committed prefix — 2026-10-19
