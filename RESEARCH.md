@@ -4,7 +4,11 @@ Actual thread inspection finds the new CPUcoding evaluator's two computation thr
 
 **Four real subprocess checks pass**: all actual owned threads receive the approved mask with unchanged priority/source/owner bytes; a different birth, protected process or changed entrypoint rejects before any thread changes. The original owner plans remain records of their initial placement; a separate immutable receipt records old/new masks. The in-flight first generation/control-step timing may span the placement change, so no matched speedup, asymptotic efficiency or quality gain is inferred. Both complete coding endpoints and every original GPU assessment remain required.
 
-Evidence: `scripts/widen_owned_CPU_checks_v1.py`, `/tmp/slm-owned-CPU-affinity-placement-v1-tests.log`, and `reports/owned-CPU-affinity-placement-v1/`.
+The real placement change completes for every thread of both exact CPUjobs, with owner/source bytes and19/IDLEpriority unchanged. There are zero completed deliveries/control updates immediately before the change. A following40.10seconds records20.8CPUseconds for the evaluator and11.62for the probe. This measures scheduler allocation during different work, not a matched tokens/second speedup. All original GPU and older repair worker placements/priorities remain unchanged.
+
+The first complete baseline FP32Python delivery now finishes at the full512-action budget without EOS. Fresh execution of its unchanged source fails both native and ordinary Python syntax/function checks, while both fresh reference controls pass. It begins with an unfiltered `return sum(xs)` under the even-sum specification, repeats function definitions and ends inside a triple-quoted string. This is one baseline case, not a complete matched endpoint or a trained improvement. The full-size CE-only control also records its first actual update on the whole553-position/120-target source: nativeCE0.8257393241, finite gradient norm0.8604218364and a nonzero actor gradient beyond weight decay. The auxiliary head is correctly unused in that control; its actual matched updates and final coding assessment remain pending.
+
+Evidence: `scripts/widen_owned_CPU_checks_v1.py`, `/tmp/slm-owned-CPU-affinity-placement-v1-tests.log`, `reports/owned-CPU-affinity-placement-v1/`, `reports/first-matched-CPU-delivery-and-placement-v1-review/complete.json`, and `/tmp/slm-compact-future-order-full-CPU-v1/CE_only-step-1.json`.
 
 ## Retain another inactive capacity state in an exact archive — 2026-10-19
 
