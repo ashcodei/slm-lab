@@ -1,3 +1,11 @@
+## Retain another inactive capacity state in an exact archive — 2026-10-19
+
+Fresh non-neural inspection confirms the old failed fast-joint owner and all ten registered children are terminal. Its **11,804,390,267-byte capacity snapshot** has no live reader, archive-anchor dependency or immutable source-file binding. The original fast initial is already losslessly archived against the raw protected initial; the new capacity archive uses that same retained protected initial directly. Both prior complete restore proofs identify its exact SHA256. The original failed experiment is not relabelled successful.
+
+The new single-thread, nice19/SCHED_IDLE controller funds an **8.5GiBmaximum payload above the40GiBwriter floor**, plus a separate complete physical scratch restore. Every byte must restore and independently match the whole original SHA before raw retirement; at least2GiBallocated recovery is required. A failure preserves the original and all metadata, permitting only its own unadmitted duplicate payload to be discarded after full original/anchor rehash. The actual original+ten-child termination and zero-binding/reader inspections pass before launch. The opaque codec remains unchanged from its four tests and completed full11.8GBprivate-state restoration. No new archive saving is counted before completion. Original GPU workers, both neural CPU checks, full source schedules and every final assessment remain unchanged.
+
+Evidence: `scripts/archive_inactive_fast_capacity_CPU_v1.py`, `reports/inactive-fast-capacity-step1-exact-raw-XOR-v1/`, `reports/inactive-protected-capacity-step2-exact-raw-XOR-v1/complete.json`, and `reports/inactive-fast-joint-initial-exact-v1/complete.json`. Retain `checkpoints/protected-joint-v1/initial/model.pt`; each archive receipt records its exact restore command.
+
 ## Compact future-order auxiliary objective — 2026-10-19
 
 The [2026 token-order paper](https://arxiv.org/html/2508.19228v2) motivates ranking first future token occurrences as additional language supervision. Its340Mgeneral results are mixed, and its coding comparisons use1.8B/7Bmodels and sampled pass@16/32/64. They do not establish sub1Bgreedy coding gains. The earlier decision to defer ordinary multi-token prediction remains: its original small-model results did not justify assuming the larger-model headline transfers here.
