@@ -56,6 +56,8 @@ CUDA_VISIBLE_DEVICES='' python -m slm_lab.own_native_query_v1 \
 
 Add `--image path/to/image.png --image-size 448` for an image question, or `--raw-prompt` for code completion.
 
+For an unfused policy/reward package, use `python -m slm_lab.own_policy_reward_query_v1 --checkpoint path/to/model.pt --prompt "Your question"`. Add `--score-response "Your response"` to obtain its text reward score.
+
 The training CLI supports `pretrain`, `sft`, `contrastive`, `dpo`, `reward`, and `ppo`:
 
 ```bash
