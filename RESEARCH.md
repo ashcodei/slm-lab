@@ -1,3 +1,11 @@
+Small-model research check — 2026-10-19
+
+The publisher's [SmolLM2-360M model card](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) reports four trillion pretraining tokens and 128 H100 GPUs. Our completed 1.106B target presentations include replay and are not an equivalent corpus or compute measure. This comparison supports investigating the foundation-data/compute gap; it does not establish a four-trillion-token minimum for this project or predict its eventual capability. No outside model weights were loaded.
+
+The [Tiny Recursive Model paper](https://arxiv.org/abs/2510.04871) reports a seven-million-parameter recursive network evaluated on ARC tasks. Those task-specific results do not establish general text, coding or multimodal parity with a high-end LLM. Shared recursive computation remains a candidate for a controlled later ablation, with the complete own-model baseline, code correctness/efficiency and broad retention assessments preserved. It is not a demonstrated solution to our current capability gap.
+
+---
+
 Native preparation reserve recovery — 2026-10-19
 
 An owned temporary archive payload exposed an immediate 40 GiB metadata rejection in both first native preparation waiters. Their failure-report writes repeated the same rejection. Both exact terminal owners, unchanged plans and stderr logs are preserved in separate failure observations; neither produced data admission or neural updates. The original producer and GPU training workers remain unchanged.
