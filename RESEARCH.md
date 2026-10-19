@@ -1,3 +1,11 @@
+Lossless inactive capacity storage recovery — 2026-10-19T08:57:10.741808+00:00
+
+Archived the inactive, unbound 11,388,024,827-byte raw-step capacity snapshot from the completed 35,284-update phase into 9,123,952,351 compressed bytes. The complete original was physically restored on the separate scratch filesystem and independently rehashed before retiring its redundant original copy. Every tensor, optimizer, RNG and metadata byte remains recoverable; the current archive payload was independently rehashed again. Actual allocated storage reclaimed: 2,264,076,288 bytes (2.11 GiB). Current training inputs and all original workers remain unchanged; shared caches outside this project are untouched.
+
+The original gzip attempt was deliberately stopped after observed CPU starvation, with its unchanged original and failure evidence preserved. A second completed-capacity artifact did not meet the minimum space-recovery threshold, so its original remains and only the new unadmitted duplicate was discarded. No additional saving is claimed for that attempt. Three actual tests pass for each codec, covering physical restoration, corruption, existing-output protection and payload limits. Optional codec dependency: `requirements-archive.txt`. To restore the retired historical path with the existing codec environment: `PYTHONPATH=src /opt/conda/bin/python scripts/restore_exact_checkpoint_archive_v2.py --archive checkpoints/phase-joint-v3/capacity-raw-step1.pt.exact-zstd-v2 --output checkpoints/phase-joint-v3/capacity-raw-step1.pt`.
+
+---
+
 Native coding training/recovery and standalone export — 2026-10-19T09:34:48.222033+00:00
 
 The actual four-replica CPU controller integration passes all three checks. Both CE/execution profiles read the completed capacity state into fresh replicas, run fixed full-group allocation without optimizer calls, train the complete declared fixture schedule and recover an interrupted update while retaining both attempt journals. Across both profiles and all ranks, the new training/recovery test performs 56 actual disposable AdamW calls. Next actions, actual program verdicts, gradients, actor/Adam values and private RNG recover exactly; raw execution timings remain in their original journals.

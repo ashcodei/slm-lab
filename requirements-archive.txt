@@ -1,0 +1,2 @@
+# Optional lossless checkpoint archival tools.
+zstandard==0.23.0
