@@ -1,3 +1,11 @@
+## Allow owned CPU checks to use the instance CPU set — 2026-10-19
+
+Actual thread inspection finds the new CPUcoding evaluator's two computation threads both restricted to CPU22, while the new single-thread auxiliary probe is restricted to CPU20. A separate non-neural manager can widen only these two exact owner/birth/entrypoint identities to the eight approved instance CPUs. Every managed thread must retain nice19/SCHED_IDLE; numerical thread configuration, FP32, model/source/owner-plan bytes, RNG, data and full generation budgets are not modified. Original GPU and older repair workers are explicitly protected from this operation.
+
+**Four real subprocess checks pass**: all actual owned threads receive the approved mask with unchanged priority/source/owner bytes; a different birth, protected process or changed entrypoint rejects before any thread changes. The original owner plans remain records of their initial placement; a separate immutable receipt records old/new masks. The in-flight first generation/control-step timing may span the placement change, so no matched speedup, asymptotic efficiency or quality gain is inferred. Both complete coding endpoints and every original GPU assessment remain required.
+
+Evidence: `scripts/widen_owned_CPU_checks_v1.py`, `/tmp/slm-owned-CPU-affinity-placement-v1-tests.log`, and `reports/owned-CPU-affinity-placement-v1/`.
+
 ## Retain another inactive capacity state in an exact archive — 2026-10-19
 
 Fresh non-neural inspection confirms the old failed fast-joint owner and all ten registered children are terminal. Its **11,804,390,267-byte capacity snapshot** has no live reader, archive-anchor dependency or immutable source-file binding. The original fast initial is already losslessly archived against the raw protected initial; the new capacity archive uses that same retained protected initial directly. Both prior complete restore proofs identify its exact SHA256. The original failed experiment is not relabelled successful.
