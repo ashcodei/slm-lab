@@ -1,3 +1,13 @@
+## Bind the completed human policy as a joint initializer — 2026-10-19
+
+A new CPU preparer fixes the text donor to the completed original human-DPO arm and retains vision/OCR from its own completed public-pretraining foundation. Selection precedes any future joint result. It first closes the actual completed epochs and all four final private-state files, then requires matching exported actor values, complete Adam clocks, all 85,786 original pair positions, identical final metrics and distinct private generators. CUDA generator bytes are retained and hashed without GPU replay. No original training corpus or neural preference likelihood is rerun by this inspection.
+
+The independent native builder folds the trained language factors while retaining the original native critic and every vision/word/auxiliary value. It exports one own model/tokenizer and requires every value plus actual complete code/photo/word outputs to cold-load exactly. The full-size CPU process is live on scratch storage; successful full-size reconstruction/export is not yet claimed. The first launch failed before creating an output or source binding because CPU23 was outside the actual allowed set; its source/log are retained, and the unbound preparer was corrected to select an actually allowed CPU before the current run.
+
+Twelve targeted checks pass (seven state/export checks and five admission checks). The neural fixture uses three actual small CPU DPO updates; four inspection envelopes share that one trajectory and do not prove four-replica neural execution. A separate non-neural admission reader waits for the exact source owner, rejects partial/failed/small outputs, and still grants no GPU admission. Actual four-L40 capacity/recovery, configured 4,096-token GPU cold, all 5,362 joint updates and every original baseline/final assessment remain required. No new coding or broad capability gain is established.
+
+Evidence: `reports/completed-joint-initializer-v1-review/`; live full-size preparation: `/tmp/slm-completed-joint-initializer-CPU-v1/`.
+
 ## Recover source and experiment observers — 2026-10-19
 
 The original serial observer and two native-source preparers are confirmed terminal after metadata writes timed out below the persistent volume's unchanged 40 GiB reserve. None launched GPU work. Their plans, source bindings and tracebacks remain untouched; they are not relabelled successful. Three new source-only observers now write metadata on the separate scratch filesystem under the same 40 GiB reserve. Actual process births and scheduling are verified: both source preparers remain idle/nice19 and the serial supervisor remains normal/nice0, with no children or GPU work launched.
