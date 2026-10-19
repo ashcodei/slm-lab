@@ -1,3 +1,13 @@
+## First full-size future-order update and saved control readback — 2026-10-19
+
+An independent CPU reader reconstructs every initial selected actor value from the exact captured own human-DPO checkpoint and all99,840initial auxiliary values from the predeclared seed. The CE-only two-update checkpoint validates **all561Adam states/clocks**, all561nonzero first moments and its complete private CPU RNG. **15,305,204of15,305,216actor values change**, maximum absolute change2.0504e-5; every unused auxiliary value stays exact. No original checkpoint/state or caller CPU RNG changes. This selected-state reader does not reload the984Mnative/unused critic or replay neural gradients; the full producer's final frozen-value checks remain required.
+
+On the same **two training sources / 274response-EOS targets**, producer-observed token-weighted train CE is **0.510933before → 0.499193after** the two CE-only updates. The reader verifies those observation denominators and arithmetic, not a fresh numerical forward. This is a small train-set mechanism diagnostic, not held generalization or code correctness.
+
+The actual **999,806,282-value auxiliary arm also completes its first update**. Its first native CE exactly matches the CE-only arm at0.8257393241from the same initial values; all120original response/EOS positions yield1,182first-future occurrence targets. Auxiliary mean loss3.0555996895and weight.1produce total1.1312992573. Both policy and auxiliary gradients are genuinely nonzero, with finite combined norm0.9142509699. The second source, complete saved-state comparison and generated-answer quality remain pending. No new model-quality gain is established.
+
+Evidence: `reports/compact-future-order-selected-readback-v1/CE_only-readback.json`, its frozen `read_arm.py`, `/tmp/slm-compact-future-order-full-CPU-v1/CE_only-selected-Adam-RNG-control.pt`, and `/tmp/slm-compact-future-order-full-CPU-v1/CE_plus_future_order-step-1.json`.
+
 ## Allow owned CPU checks to use the instance CPU set — 2026-10-19
 
 Actual thread inspection finds the new CPUcoding evaluator's two computation threads both restricted to CPU22, while the new single-thread auxiliary probe is restricted to CPU20. A separate non-neural manager can widen only these two exact owner/birth/entrypoint identities to the eight approved instance CPUs. Every managed thread must retain nice19/SCHED_IDLE; numerical thread configuration, FP32, model/source/owner-plan bytes, RNG, data and full generation budgets are not modified. Original GPU and older repair workers are explicitly protected from this operation.
