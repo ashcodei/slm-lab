@@ -1,3 +1,9 @@
+## Preserve exact neural evidence on the project volume — 2026-10-19
+
+A non-neural publisher now retains the complete immutable512-update four-rank snapshot and the closed two-source future-order study under `checkpoints/research-evidence-future-order-v1`. Every original private state, journal prefix, tokenizer, starting actor, both selected/Adam/RNG checkpoints, update record and sealed comparison/readback remains included. It uses authoritative original SHA256commitments, a2GiBtotal copy budget and the unchanged40GiBwriter floor; original scratch inputs and live consumers are never changed or removed. Expected payload is about1.21GB, with exact bytes verified after every copy. This preserves research evidence, not a standalone serving model or a complete source epoch.
+
+The manifest maps original absolute provenance paths to persistent relative copies. `python scripts/preserve_future_order_evidence_CPU_v1.py --verify checkpoints/research-evidence-future-order-v1` independently rehashes the complete bundle without loading a neural model or restoring original paths. The publisher source remains separate from every frozen experiment. Actual copying and independent whole-bundle verification remain required; no new model-quality gain is inferred.
+
 ## Complete the full-size future-order mechanism comparison — 2026-10-19
 
 The **999,806,282-value study completes all four actual CPUAdam updates**, two per arm, retaining both whole original sources (1,307contexts/274response-EOS targets). Independent selected-state readers reconstruct identical initial actor/head values and validate all561control /564auxiliary Adam states, clocks, nonzero first moments and CPU RNG. Every99,840auxiliary value learns in the auxiliary arm and remains exact in the control. Final producer checks confirm all984Mnative/vision/word values and the unused critic stay exact; the independent reader does not replay the neural forward/backward or reload the whole frozen native.
