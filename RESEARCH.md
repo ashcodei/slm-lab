@@ -1,3 +1,11 @@
+Exact checkpoint difference archive trial — 2026-10-19
+
+Four physical-filesystem checks pass for an opaque tensor-aligned XOR/Zstandard archive backed by the already retained exact compressed anchor. The codec preserves every original ZIP, tensor, optimizer/RNG and metadata byte without tensor deserialization or precision conversion. Tests restore both durable compressed inputs into fresh physical files before retirement, reject changed payloads/anchors and existing outputs, and preserve originals on quota or savings failures. The first-format test log is retained; the final format also exposes its retained anchor as an ordinary immutable path for existing archive readers.
+
+The first actual launcher lacked NumPy in its conda environment and failed before input/archive I/O. Its unchanged log is preserved; the corrected launcher uses the existing project NumPy via `PYTHONPATH`, matching the tested environment. The first full encoding produced 9,551,935,301 bytes from the 11,388,026,875-byte inactive snapshot, but its 2 GiB saving minimum rejected publication; the original remains and only that unadmitted duplicate was discarded. A separate owned trial now uses a 1 GiB minimum to obtain useful source-preparation headroom, with every whole-file hash and independent physical restoration still mandatory. Its full-size restoration/admission and any actual additional saving remain pending. The retained anchor and all original model workers remain protected.
+
+---
+
 Small-model research check — 2026-10-19
 
 The publisher's [SmolLM2-360M model card](https://huggingface.co/HuggingFaceTB/SmolLM2-360M) reports four trillion pretraining tokens and 128 H100 GPUs. Our completed 1.106B target presentations include replay and are not an equivalent corpus or compute measure. This comparison supports investigating the foundation-data/compute gap; it does not establish a four-trillion-token minimum for this project or predict its eventual capability. No outside model weights were loaded.
