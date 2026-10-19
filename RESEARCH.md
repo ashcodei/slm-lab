@@ -1,3 +1,13 @@
+Native preparation reserve recovery — 2026-10-19
+
+An owned temporary archive payload exposed an immediate 40 GiB metadata rejection in both first native preparation waiters. Their failure-report writes repeated the same rejection. Both exact terminal owners, unchanged plans and stderr logs are preserved in separate failure observations; neither produced data admission or neural updates. The original producer and GPU training workers remain unchanged.
+
+Replacement metadata writes wait for the same 40 GiB reserve plus the complete next allocation. Four checks cover transient recovery, timeout with the previous report intact, changed sources during waiting and pending/oversized reports. The replacement full preparation passes all nine full-count metadata checks. Its separate version2 driver retains the original source schedules, initializer, action horizons and assessments; all 11 optimizer/training/prefill/export/assessment function bodies match the previously tested driver. A direct current-state launch rejects missing preparation before importing the neural runtime or creating outputs. These source-only checks establish no new learned capability.
+
+Both separate version2 source waiters are actually live. The first waits for complete native-data integration; the full recipe waits for that exact capacity-source owner and the original reasoning source recipe, followed by every complete prior experiment. Failed version1 directories stay failed and untouched. The new GPU driver is unlaunched and still requires actual full data, funded storage, four-L40 capacity/recovery, full training/export and all original assessments. See `reports/native-code-suffix-owned-driver-v2-source-and-current-launch-readback.json`.
+
+---
+
 Complete native experiment source preparation — 2026-10-19
 
 Nine source-assembly checks pass using full-count metadata fixtures, without constructing a neural model. They retain the fixed own reasoning RL initializer and its complete baseline, all 16,961 QA questions, 3,088 diagrams with three image conditions, 600 MBPP tasks, 4,642 human pairs, 3,429 words with three conditions, both 24-case code frames and all 289 reserved reasoning cases. Changed sources, a different initializer, missing conditions, partial populations and a mismatched baseline worker are rejected. These fixtures do not establish actual completed full-stage results or model quality.
