@@ -1,3 +1,11 @@
+Native-code capacity source selection — 2026-10-19T07:06:24.813626+00:00
+
+Six checks pass across all 3,721 original human programs and 14,884 native suffix views. The source-only selector retains all complete CE anchors and original horizons, selects 42 intact training batches for 132 capacity groups, rotates every selected source across all four physical ranks, and includes all 12 actual one-source/three-empty-rank tails. The full three-epoch schedule remains 11,172 updates, 44,652 source presentations and 7,010,616 response/EOS targets. These are source geometry checks; native execution eligibility and full-size capacity are still unproven. No new model accuracy result is claimed.
+
+The original independent source reader stopped after 3,712 of 3,721 programs when its bounded disk-reserve wait expired. Its qualifier, fresh reader and admission successors stopped and their failures remain preserved. Removed only the redundant 207,473,347-byte project JDK installer after verifying installed Java/Javac and no open archive handles; the installed runtime and shared caches remain intact. Further source preparation needs an explicit recovery and sufficient disk headroom.
+
+---
+
 Native-code source-validation optimization — 2026-10-19T06:43:44.425194+00:00
 
 Twelve actual controls pass. The same recorded eight-attempt native worker group passes both validators. Measured reads fall from 3,214,605,383 to 327,304,076 bytes (89.82% reduction). Shared-CPU wall times are 22.66s and 7.86s; this is not an isolated hardware or complete-training throughput benchmark. The complete guard remains at validation-batch boundaries; exact source/control reconstruction, emitted native actions, complete CE masks, worker program bytes, true EOS, rewards and abstentions remain checked. Actual extra source mutation with identical size/timestamp rejects, and another thread cannot borrow the active source-validation context.
