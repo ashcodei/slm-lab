@@ -1,3 +1,17 @@
+## Complete the three public coding-preference training arms — 2026-10-20
+
+Chosen-response CE, whole-response DPO and first-divergence DPO each finish **60 full-size updates / three complete epochs over all 77 machine-labelled pairs**. Every arm retains 231 pair presentations, 98,106 chosen response/EOS targets and 98,109 observed rejected targets. The branches share the same original starting actor and source schedule; negatives never become positive CE targets. These are public finite-counterexample preferences, separate from the human alignment experiments and on-policy RL.
+
+Independent CPU readers check all three exports against their final private states, all **561 selected Adam states and step-60 clocks per arm**, complete source/context/EOS records, saved private RNG validity and unchanged unused critic. They reconstruct the own-reference bindings and first-divergence margins without restoring training RNG or loading the frozen 984M native. Caller RNG remains exact. Neural gradients, whole-sequence reference log probabilities and full frozen-native values are not independently replayed. A combined readback verifies every bound input again.
+
+| Training arm | Epoch 1 online train NLL | Epoch 3 online train NLL |
+|---|---:|---:|
+| Chosen-response CE | 0.178699 | 0.041310 |
+| Whole-response DPO | 0.242179 | 0.115795 |
+| First-divergence DPO | 0.229572 | 0.102547 |
+
+Each value aggregates all 32,702 chosen targets in that epoch while weights are changing. These are repeated training observations, **not fixed-checkpoint or held-out performance**. The original evaluation pipeline has started with the baseline; all three trained endpoints remain pending. No candidate is promoted and no coding-correctness or broad capability gain is established. Evidence: `reports/public-edge-three-arm-training-readback-v1/complete.json`, the two component readbacks it binds, and `reports/public-edge-preference-comparison-CPU-v2/all-arms-training-complete.json`. All ten final capability requirements remain incomplete.
+
 ## Prepare a separate matched BF16 coding assessment — 2026-10-20
 
 An inference-only probe loads the complete own **999,706,442-parameter** starting policy on CPU. On two whole original training sources (553 and 754 context positions), every BF16 logit agrees exactly with and without the existing explicit frozen-weight cast cache. The cache stores derived precision copies, adds no learned parameters and leaves the original FP32 weights registered. Three native greedy generations retain the complete first training prompt and original 512-action budget.
