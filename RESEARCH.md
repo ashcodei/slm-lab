@@ -1,3 +1,9 @@
+## Read the initial FP32 completion frame — 2026-10-20
+
+The first complete CPU-FP32 baseline completion frame reports **2/24 syntax-valid programs, 0/24 functional passes and 0/24 empirical efficiency passes**. Syntax is 0/12 for Python and 2/12 for JavaScript; ordinary Python correctness is 0/12. All 24 responses reach the original 512-action budget without EOS.
+
+A saved-output reader reconstructs every original prompt, action sequence and native program, checks every aggregate, and matches all twelve Python outcomes to their earlier independent executions. A separate hash check closes all 43 input files, including the twelve earlier result files. This readback performs no new neural or program execution. The unchanged producer requires successful native reference controls before publishing the frame, but retains their stress measurements rather than their full verdicts. These are initial-checkpoint results only; the full 96-program comparison and trained endpoint remain pending. No quality gain is established, and all ten final capability requirements remain incomplete. Evidence: `reports/completed-initial-FP32-completion-frame-v1/complete.json` and `closed-input-hashes.json`.
+
 ## Verify all initial Python completion deliveries — 2026-10-19
 
 An independent CPU reader captures all twelve already delivered Python completions from the initial own human-DPO checkpoint in the live matched FP32 assessment. Every full prompt, action sequence, EOS boundary and original native decoding rule reconstructs without changing the producer. Ordinary Python reports **0/12 syntax-valid and 0/12 functionally correct programs**: all twelve fail compilation. Every response reaches the original 512-action budget without EOS. All twelve fresh reference programs pass their complete **1,724 finite cases**.
