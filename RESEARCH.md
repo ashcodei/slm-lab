@@ -1,3 +1,9 @@
+## Measure CPU scheduling delays during GPU training — 2026-10-20
+
+A read-only **30.01-second** observation captures the exact four GPU workers and three CPU jobs, retaining all thread counters and 30 hardware-utilization samples per GPU. The cgroup allows eight CPUs with no additional CPU-time quota. GPU main threads spend **7.12, 5.03, 3.22 and 7.73 seconds runnable but queued for CPU**; the FP32 coding evaluator spends 11.25 seconds queued. Average sampled GPU utilization is **19.57%, 6.57%, 2.53% and 5.47%**. Eligible-time queue fractions are distinct from fractions of wall time; other worker time also includes blocking and replica synchronization.
+
+An independent saved-output reader recomputes every recorded common-thread runtime/delay, confirms unchanged priorities/affinities and reconstructs all 120 hardware samples from the CSV. This is direct contention evidence, not a controlled CPU-scaling experiment or a general throughput result. The user has been asked whether the CPU allocation can increase; existing jobs continue while that question is pending. No worker, source, model value, numerical thread setting or allocation is changed. Evidence: `reports/GPU-worker-CPU-scheduling-observation-v1/complete.json` and `closed-readback.json`. All ten final capability requirements remain incomplete.
+
 ## Complete the three public coding-preference training arms — 2026-10-20
 
 Chosen-response CE, whole-response DPO and first-divergence DPO each finish **60 full-size updates / three complete epochs over all 77 machine-labelled pairs**. Every arm retains 231 pair presentations, 98,106 chosen response/EOS targets and 98,109 observed rejected targets. The branches share the same original starting actor and source schedule; negatives never become positive CE targets. These are public finite-counterexample preferences, separate from the human alignment experiments and on-policy RL.
