@@ -1,3 +1,20 @@
+## Close and independently reexecute the complete FP32 comparison — 2026-10-20
+
+The recovered comparison completes all96deliveries:84retained original neural generations plus12new missing JavaScript instruction responses. The original reference-timeout failure remains preserved. A separate reader reconstructs every original BPE prompt, action/EOS boundary and unchanged decoded program, then freshly reexecutes **all96native programs and48ordinary-Python modules**. Every syntax/functional verdict agrees with the producer. All24fresh native reference controls complete correctness/stress checks, and12fresh ordinary-Python references pass all1,724finite cases. Fresh empirical efficiency is recorded separately from the producer's shared-host timings; neither endpoint has an efficiency pass.
+
+| Complete local CPUFP32 comparison | Starting policy | Step512 |
+|---|---:|---:|
+| Native syntax | 12/48 | 25/48 |
+| Native functional correctness | 1/48 | 0/48 |
+| Ordinary Python compilation | 1/24 | 12/24 |
+| Ordinary Python functional correctness | 0/24 | 0/24 |
+| Natural EOS stops | 9/48 | 17/48 |
+| Fresh empirical efficiency | 0/48 | 0/48 |
+
+Completion-frame syntax improves2/24to7/24with zero functional passes/stops throughout. Instruction-frame syntax improves10/24to18/24and stops9/24to17/24, but the initial JavaScript `lower_bound` is the only functional pass and is lost. There is **no verified coding-correctness gain**. These outcomes prioritize semantic correctness over syntax, token likelihood or stopping alone. They come from the original anchored-CE checkpoint, not the new EOS-weight4 experiment, which still has zero production updates.
+
+The source is an immutable512/3,721-update development checkpoint and reused local tasks; this is neither the final trained model nor an independent final benchmark or high-end capability result. No candidate is promoted, and all original broad/multimodal/human/GPU requirements remain unfinished. Reader: `scripts/read_matched_FP32_full_comparison_CPU_v1.py`; full producer: `/tmp/slm-broad-code-step512-code-evaluation-CPU-v2/complete.json`; independent evidence: `reports/matched-FP32-full-comparison-readback-v1/complete.json`. All ten final capability requirements remain incomplete.
+
 ## Recover the reference-timeout FP32 coding comparison — 2026-10-20
 
 The original evaluator is terminal after84of96saved generations. Its failing Python `longest_unique` reference passes all58correctness cases but times out during its efficiency control; this is an invalid reference control, not a new model failure or a completed instruction-frame score. The original failure,84action records and three completed frames remain unchanged. A fresh normal-priority execution of the identical reference under the unchanged limits passes correctness and the complete stress check. This does not establish the precise cause of the original timeout.
