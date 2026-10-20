@@ -1,3 +1,11 @@
+## Prepare a separate matched BF16 coding assessment — 2026-10-20
+
+An inference-only probe loads the complete own **999,706,442-parameter** starting policy on CPU. On two whole original training sources (553 and 754 context positions), every BF16 logit agrees exactly with and without the existing explicit frozen-weight cast cache. The cache stores derived precision copies, adds no learned parameters and leaves the original FP32 weights registered. Three native greedy generations retain the complete first training prompt and original 512-action budget; their token parity and shared-host timings are still pending. No throughput or quality gain is established.
+
+A separate BF16 evaluator is prepared for all **96 original programs**, generating both the starting and captured 512-update endpoints anew. It retains every task, prompt frame, native execution/efficiency check and ordinary Python delivery check. Its launch requires the completed full-size probe, exact generation parity, at least 256 observed actions, at least 10 cached actions/second and at least 1.5× speedup over both uncached controls. The original FP32 comparison and GPU experiments continue unchanged. Admission reserves 12 GiB for loading plus 48 GiB of other-job memory headroom.
+
+**One new integration check passes** after actual small-model adapter training: both endpoints and both fresh frame contexts reproduce uncached BF16 logits/actions exactly, retain the original frozen weights and RNG, and seal the actual one-thread BF16 precision. This is a backend control, not full-size benchmark completion or improved coding correctness. Sources: `scripts/probe_broad_CPU_BF16_generation_v1.py`, `scripts/evaluate_broad_interim_code_CPU_BF16_v1.py`, and `tests/test_interim_code_CPU_BF16_v1.py`. Evidence: `/tmp/slm-broad-CPU-BF16-generation-probe-v1/full-source-parity.json` and `/tmp/slm-interim-code-CPU-BF16-v1-tests.log`. All ten final capability requirements remain incomplete.
+
 ## Read the initial FP32 completion frame — 2026-10-20
 
 The first complete CPU-FP32 baseline completion frame reports **2/24 syntax-valid programs, 0/24 functional passes and 0/24 empirical efficiency passes**. Syntax is 0/12 for Python and 2/12 for JavaScript; ordinary Python correctness is 0/12. All 24 responses reach the original 512-action budget without EOS.
