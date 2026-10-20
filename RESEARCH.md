@@ -1,3 +1,26 @@
+## Measure execution feedback and CPU contention — 2026-10-20
+
+The closed first512-update `anchor_CE` journal contains2,048 own sampled trajectories. Independent float64 arithmetic reconstructs every recorded group-relative advantage, reward/action count and true EOS boundary. Only **17/512 groups (3.32%)** have differing rewards;495groups are all zero. There are21partial-positive trajectories, no full-reward trajectories and1,392natural EOS stops. These observations span changing CE policies; they are not a fixed-checkpoint benchmark. The CE control records execution rewards but does **not** optimize an execution-policy loss, so sparse rewards cannot explain its CE regression or predict the unrun execution arm. Runtime/context/source qualifications are not certified algorithmic failures, and this diagnostic does not reexecute programs. Two diagnostic tests pass in0.07seconds. Evidence: `reports/broad-code-execution-feedback-diagnostic-v1/complete.json`.
+
+A bounded original/split/restored CPU placement trial temporarily confines only the two already-trained CPU evaluations to six of their original eight cores. A separate watchdog restores original masks on owner death or expiry; four real child/thread/descendant and restoration tests pass in0.63seconds. GPU workers, numerical settings, models and source bytes stay unchanged. All16live evaluation threads are independently checked back on their original eight cores.
+
+The three approximately91-second windows complete4/2/6updates, with mean four-GPU NVML utilization7.67%/6.54%/9.26%. They process different source lengths and1,168/1,274/1,772sampled actions, so these short sequential windows establish neither a precise slowdown nor a speedup. **No consistent benefit is demonstrated and the split is not retained.** NVML utilization is not tensor-core occupancy; scheduler eligible-wait ratios are not wall-time fractions. Evidence: `reports/GPU-CPU-affinity-split-v1/complete.json` and its closed-source workload/readback report. No model-quality gain is established by either diagnostic.
+
+## Measure the whole-reasoning context bottleneck — 2026-10-20
+
+A source-only survey reads both complete20,000-row closed join/screen ledgers and preserves all6,116selected positions and their fixed5,509train/607reserved roles. A separate reader reconstructs every candidate's prompt/whole-response lengths and all role/view totals directly from original metadata without importing the producer. Within this fixed subset:
+
+| Whole text context | Geometrically fitting train reasoning responses | Response/EOS target presentations for one pass |
+|---|---:|---:|
+| 4,096 | 1,784 | 3,775,071 |
+| 8,192 | 3,314 | 12,148,447 |
+| 16,384 | 4,930 | 30,325,589 |
+| 32,768 | 5,507 | 40,728,585 |
+
+These are **upper bounds before additional admission**, not newly usable training rows. Longer responses did not receive the complete target overlap and solution-inclusion checks applied to fitting4Kviews, and source execution/readback is still pending. This is the fixed4Kcandidate subset, not an exhaustive larger-context source selection. No response is cropped or relabelled. The actual model remains at4,096tokens; larger-context GPU capacity, neural usefulness and any quality gain are unproved.
+
+The decoder computes RoPE positions dynamically and has no learned text-position table, but relaxing its length guard alone would not establish useful long-context behavior. A future extension needs explicit old-context equivalence, positional-behavior comparisons, full source screening and measured four-L40 capacity before training. Current production workers and queued4Krecipes remain unchanged. Source: `scripts/survey_whole_reasoning_context_CPU_v1.py`; evidence: `reports/whole-reasoning-context-survey-v1/complete.json` and `independent-readback.json`. All ten final capability requirements remain incomplete.
+
 ## Close and independently reexecute the complete FP32 comparison — 2026-10-20
 
 The recovered comparison completes all96deliveries:84retained original neural generations plus12new missing JavaScript instruction responses. The original reference-timeout failure remains preserved. A separate reader reconstructs every original BPE prompt, action/EOS boundary and unchanged decoded program, then freshly reexecutes **all96native programs and48ordinary-Python modules**. Every syntax/functional verdict agrees with the producer. All24fresh native reference controls complete correctness/stress checks, and12fresh ordinary-Python references pass all1,724finite cases. Fresh empirical efficiency is recorded separately from the producer's shared-host timings; neither endpoint has an efficiency pass.
