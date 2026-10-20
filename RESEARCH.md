@@ -1,3 +1,14 @@
+## Check the first five trained Python deliveries — 2026-10-20
+
+A non-neural reader captures the first five already delivered Python completions from the exact 512-update endpoint of the live matched FP32 assessment. The cohort follows the original fixed task order and is chosen before scoring. Every full prompt/action/EOS boundary and original decoding rule reconstructs; the corresponding closed baseline executions match by code/action hashes. Five fresh ordinary-Python reference controls pass all **536 finite cases**.
+
+| First five Python completion tasks | Initial | Step 512 |
+|---|---:|---:|
+| Compiles as ordinary Python | 0/5 | 3/5 |
+| Passes every original finite case | 0/5 | 0/5 |
+
+All five generated responses change and still exhaust the original 512-action budget without EOS. `count_runs` passes 2/67 cases; `prefix_sums` raises `TypeError` and `count_target_pairs` raises `NameError`. The other two programs fail syntax. Thus this small cohort shows structural improvement without a functional pass. A separate process rehashes every bound input/result and recompiles both exact source modules, validating the saved execution summaries and reference counts without rerunning neural inference or program executions. This is a five-task development prefix, **not the complete trained endpoint, full 96-program comparison, efficiency assessment or independent final benchmark**. No automatic model adoption occurs. Evidence: `reports/interim512-trained-Python-prefix-CPU-v1/complete.json` and `independent-verification.json`. All ten final capability requirements remain incomplete.
+
 ## Test a compiled text-decoder component and explicit Q8 export — 2026-10-20
 
 Our own policy decoder can now export a separate FP32 GGUF text component with its original GQA/RMSNorm/SwiGLU operators, interleaved rotary positions, tied vocabulary table and exact ByteLevel BPE IDs. The compatible runtime architecture tag supplies operators; all weights come from our own model. A second exporter derives Q8_0 matrices while retaining FP32 norms, all language tensor shapes and tokenizer metadata. Both formats explicitly exclude the vision/word/reward/critic interfaces and are **not full multimodal delivery artifacts**. Folding and quantization can alter outputs and do not certify an existing reward head's feature basis.
