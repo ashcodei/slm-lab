@@ -1,3 +1,19 @@
+## Close the matched FP32 completion frame — 2026-10-20
+
+Both original24-program completion frames finish on the starting own human-DPO policy and its captured512-update broad-code checkpoint. The unchanged protocol uses CPUFP32 cached greedy decoding, the same tokenizer/suite/prompts and512actions. A separate reader captures the first72complete journal records, reconstructs every original completion prompt/action/EOS/delivery, and freshly reexecutes **all48native programs and24ordinary-Python modules**. Every syntax/functional verdict agrees with the producer. Twelve fresh ordinary-Python reference controls pass all **1,724finite cases**. A subsequent read-only process rehashes all75closed source/result files.
+
+| Complete local completion frame | Starting policy | Step512 |
+|---|---:|---:|
+| Native syntax-valid programs | 2/24 | 7/24 |
+| Native functional correctness | 0/24 | 0/24 |
+| Ordinary Python compilation | 0/12 | 4/12 |
+| Ordinary Python functional correctness | 0/12 | 0/12 |
+| True EOS stops | 0/24 | 0/24 |
+
+All48responses exhaust512actions. This is a bounded structural improvement; correct program logic and stopping remain unresolved. Native reference controls/stress timing are not independently rerun by this reader, and efficiency improvement is unproved. These reused local development tasks are not an independent final benchmark, the complete96-program completion/instruction comparison or the final3,721-update checkpoint. No candidate is promoted and the original evaluation/training continues unchanged.
+
+Source: `scripts/read_matched_FP32_completion_frame_CPU_v1.py`; evidence: `reports/matched-FP32-completion-frame-readback-v1/complete.json`, its captured original action prefix,48fresh per-program records and fresh reference controls. No new neural generation, model-weight load or training is performed by the reader. All ten final capability requirements remain incomplete.
+
 ## Prepare the admitted reasoning-code training interface — 2026-10-20
 
 Added a train-only interface for the complete independently admitted public code/reasoning pack. It requires a successful terminal admission owner, exact receipt/package hashes, every original source/view budget and unchanged duplicate-component roles. Declared `both`, `code_only` and `reasoning` policies retain every train row in that selected view; reserved rows cannot supply optimization/capacity data. Complete epoch schedules keep the actual partial final batch without rounding repeats. Tensor batches preserve full original inputs, response/EOS masks and padding. Public synthetic responses have no human-preference or reward-oracle API.
